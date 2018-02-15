@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>SudoToolsForWindows</id>
+        <version>0.0.4</version>
+        <authors>Kim Hugener-Ohlsen</authors>
+        <owners>Kim Hugener-Ohlsen</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Package contains tools similar to su and sudo for Windows</description>
+    </metadata>
+    <files>
+        <file src="su.cmd" target="tools\su.cmd" />
+        <file src="su.ps1" target="tools\su.ps1" />
+        <file src="sudo.cmd" target="tools\sudo.cmd" />
+    </files>
+</package>
